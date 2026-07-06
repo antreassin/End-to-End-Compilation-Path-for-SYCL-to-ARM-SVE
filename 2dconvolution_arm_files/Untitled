@@ -1,0 +1,1 @@
+% arrayidx . i = getelementptr float , ptr addrspace (1) %0 , i64 % s

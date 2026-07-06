@@ -1,0 +1,145 @@
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084099367      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008766480      armv8_pmuv3_1/cycles/                                                 
+        1798269053      armv8_pmuv3_1/event=0x40/                                             
+        1084704769      armv8_pmuv3_1/event=0x41/                                             
+
+       0.511811449 seconds time elapsed
+
+       0.502890000 seconds user
+       0.006998000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       30551135177      armv8_pmuv3_1/instructions/      #    2.07  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       14749906593      armv8_pmuv3_1/cycles/                                                 
+        7192019353      armv8_pmuv3_1/event=0x40/                                             
+        3689782271      armv8_pmuv3_1/event=0x41/                                             
+
+       3.804182914 seconds time elapsed
+
+       3.334123000 seconds user
+       0.468017000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064374244      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4011601798      armv8_pmuv3_1/cycles/                                                 
+        3593361971      armv8_pmuv3_1/event=0x40/                                             
+        2166338888      armv8_pmuv3_1/event=0x41/                                             
+
+       1.019341328 seconds time elapsed
+
+       1.006853000 seconds user
+       0.010998000 seconds sys
+
+
+----sve----
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_sve.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        1954857762      armv8_pmuv3_1/instructions/      #    6.25  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+         312739251      armv8_pmuv3_1/cycles/                                                 
+         542460985      armv8_pmuv3_1/event=0x40/                                             
+         276755698      armv8_pmuv3_1/event=0x41/                                             
+
+       0.082882920 seconds time elapsed
+
+       0.074832000 seconds user
+       0.005056000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_sve.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       27698580661      armv8_pmuv3_1/instructions/      #    1.99  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       13897240983      armv8_pmuv3_1/cycles/                                                 
+        6420247717      armv8_pmuv3_1/event=0x40/                                             
+        3480512505      armv8_pmuv3_1/event=0x41/                                             
+
+       3.605509590 seconds time elapsed
+
+       3.128523000 seconds user
+       0.450643000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_sve.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        4965014033      armv8_pmuv3_1/instructions/      #    7.63  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+         650849791      armv8_pmuv3_1/cycles/                                                 
+        1617283077      armv8_pmuv3_1/event=0x40/                                             
+         547023479      armv8_pmuv3_1/event=0x41/                                             
+
+       0.174101805 seconds time elapsed
+
+       0.158871000 seconds user
+       0.006950000 seconds sys
+
+
+---wr for polly----
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5083481845      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2010378041      armv8_pmuv3_1/cycles/                                                 
+        1798166625      armv8_pmuv3_1/event=0x40/                                             
+        1084633159      armv8_pmuv3_1/event=0x41/                                             
+
+       0.513166725 seconds time elapsed
+
+       0.505301000 seconds user
+       0.005002000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       30560618178      armv8_pmuv3_1/instructions/      #    2.00  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       15286029799      armv8_pmuv3_1/cycles/                                                 
+        7199616236      armv8_pmuv3_1/event=0x40/                                             
+        3700960447      armv8_pmuv3_1/event=0x41/                                             
+
+       3.937332336 seconds time elapsed
+
+       3.448769000 seconds user
+       0.486108000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064146970      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4011142805      armv8_pmuv3_1/cycles/                                                 
+        3593405254      armv8_pmuv3_1/event=0x40/                                             
+        2166409566      armv8_pmuv3_1/event=0x41/                                             
+
+       1.020044200 seconds time elapsed
+
+       1.007625000 seconds user
+       0.010006000 seconds sys
+
+

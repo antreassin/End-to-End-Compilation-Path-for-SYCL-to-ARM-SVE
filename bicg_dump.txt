@@ -1,0 +1,128 @@
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_sve.out':
+
+        3498860320      task-clock                       #    0.999 CPUs utilized             
+                33      context-switches                 #    9.432 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+            262323      page-faults                      #   74.974 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       27771218822      armv8_pmuv3_1/instructions/      #    2.04  insn per cycle            
+                                                  #    0.31  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       13590344082      armv8_pmuv3_1/cycles/            #    3.884 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+          62794992      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.46% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        8566384573      armv8_pmuv3_1/stalled-cycles-backend/ #   63.03% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+        6054332230      armv8_pmuv3_1/branches/          #    1.730 G/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+           8917641      armv8_pmuv3_1/branch-misses/     #    0.15% of all branches           
+
+       3.502947818 seconds time elapsed
+
+       3.011942000 seconds user
+       0.486828000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_polly.out':
+
+        3893535008      task-clock                       #    0.999 CPUs utilized             
+                36      context-switches                 #    9.246 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+            262323      page-faults                      #   67.374 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       30588727265      armv8_pmuv3_1/instructions/      #    2.03  insn per cycle            
+                                                  #    0.31  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       15103734342      armv8_pmuv3_1/cycles/            #    3.879 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+          67470662      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.45% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        9495357810      armv8_pmuv3_1/stalled-cycles-backend/ #   62.87% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+        6478390731      armv8_pmuv3_1/branches/          #    1.664 G/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+           9159541      armv8_pmuv3_1/branch-misses/     #    0.14% of all branches           
+
+       3.897009101 seconds time elapsed
+
+       3.439235000 seconds user
+       0.454031000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_polly.out':
+
+       30593082035      armv8_pmuv3_0/instructions/      #    1.82  insn per cycle            
+     <not counted>      armv8_pmuv3_1/instructions/                                             (0.00%)
+       16815463834      armv8_pmuv3_0/cycles/                                                 
+     <not counted>      armv8_pmuv3_1/cycles/                                                   (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x40/                                               (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x41/                                               (0.00%)
+
+       6.018808408 seconds time elapsed
+
+       5.724260000 seconds user
+       0.290911000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_pure_sve.out':
+
+       27690733297      armv8_pmuv3_0/instructions/      #    2.13  insn per cycle            
+     <not counted>      armv8_pmuv3_1/instructions/                                             (0.00%)
+       13015893783      armv8_pmuv3_0/cycles/                                                 
+     <not counted>      armv8_pmuv3_1/cycles/                                                   (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x40/                                               (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x41/                                               (0.00%)
+
+       4.677643277 seconds time elapsed
+
+       4.348712000 seconds user
+       0.324978000 seconds sys
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_baseline.out':
+
+       31270275565      armv8_pmuv3_0/instructions/      #    2.24  insn per cycle            
+     <not counted>      armv8_pmuv3_1/instructions/                                             (0.00%)
+       13976427481      armv8_pmuv3_0/cycles/                                                 
+     <not counted>      armv8_pmuv3_1/cycles/                                                   (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x40/                                               (0.00%)
+     <not counted>      armv8_pmuv3_1/event=0x41/                                               (0.00%)
+
+       5.012449529 seconds time elapsed
+
+       4.684977000 seconds user
+       0.311865000 seconds sys
+
+
+
+ Performance counter stats for './bicg_arm_executables/bicg_arm_baseline.out':
+
+        3635810032      task-clock                       #    0.999 CPUs utilized             
+                30      context-switches                 #    8.251 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+            262323      page-faults                      #   72.150 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+       31328819507      armv8_pmuv3_1/instructions/      #    2.22  insn per cycle            
+                                                  #    0.27  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+       14132652760      armv8_pmuv3_1/cycles/            #    3.887 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+          63375346      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.45% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        8583713884      armv8_pmuv3_1/stalled-cycles-backend/ #   60.74% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+        6457115347      armv8_pmuv3_1/branches/          #    1.776 G/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+           9000668      armv8_pmuv3_1/branch-misses/     #    0.14% of all branches           
+
+       3.638590789 seconds time elapsed
+
+       3.140076000 seconds user
+       0.495854000 seconds sys
+
+

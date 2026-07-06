@@ -1,0 +1,2 @@
+537.864,1024,./syrk_arm_executables/syrk_arm_pure_polly.out
+111.887,1024,./syrk_arm_executables/syrk_arm_pure_sve.out

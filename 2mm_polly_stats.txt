@@ -1,0 +1,270 @@
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015882512      task-clock                       #    0.997 CPUs utilized             
+                 8      context-switches                 #    7.875 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6056      page-faults                      #    5.961 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9065363900      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4007801215      armv8_pmuv3_1/cycles/            #    3.945 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4405928      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3088609740      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375987662      armv8_pmuv3_1/branches/          #  370.109 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            409808      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.019309635 seconds time elapsed
+
+       1.007678000 seconds user
+       0.009006000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1016080464      task-clock                       #    0.998 CPUs utilized             
+                13      context-switches                 #   12.794 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.959 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9065408251      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4009839446      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4300317      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3090738530      armv8_pmuv3_1/stalled-cycles-backend/ #   77.08% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375998641      armv8_pmuv3_1/branches/          #  370.048 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            407919      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.018233187 seconds time elapsed
+
+       1.005716000 seconds user
+       0.010985000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015626368      task-clock                       #    0.998 CPUs utilized             
+                13      context-switches                 #   12.800 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.962 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9065866433      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4007383654      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4379953      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3088119122      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         376057530      armv8_pmuv3_1/branches/          #  370.272 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            408663      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017932100 seconds time elapsed
+
+       1.005247000 seconds user
+       0.010991000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1014701616      task-clock                       #    0.998 CPUs utilized             
+                12      context-switches                 #   11.826 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.967 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064991092      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4004110957      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4241292      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3085086148      armv8_pmuv3_1/stalled-cycles-backend/ #   77.05% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375942301      armv8_pmuv3_1/branches/          #  370.495 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            409091      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.016645031 seconds time elapsed
+
+       1.007115000 seconds user
+       0.007992000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015181296      task-clock                       #    0.998 CPUs utilized             
+                12      context-switches                 #   11.821 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.964 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064590670      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4006648024      armv8_pmuv3_1/cycles/            #    3.947 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4236382      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3087700739      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375887915      armv8_pmuv3_1/branches/          #  370.267 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            407359      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017497973 seconds time elapsed
+
+       1.005917000 seconds user
+       0.009989000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015269392      task-clock                       #    0.998 CPUs utilized             
+                11      context-switches                 #   10.835 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.964 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064433764      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4007133320      armv8_pmuv3_1/cycles/            #    3.947 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4331358      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3088076950      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375868807      armv8_pmuv3_1/branches/          #  370.216 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            409908      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017381285 seconds time elapsed
+
+       1.005031000 seconds user
+       0.010989000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015440288      task-clock                       #    0.998 CPUs utilized             
+                12      context-switches                 #   11.818 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6056      page-faults                      #    5.964 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064480853      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4007311818      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4401771      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3088155239      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375876453      armv8_pmuv3_1/branches/          #  370.161 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            409768      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017752084 seconds time elapsed
+
+       1.005254000 seconds user
+       0.010991000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015219792      task-clock                       #    0.997 CPUs utilized             
+                13      context-switches                 #   12.805 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.964 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064070338      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4006536591      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4252118      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3087650195      armv8_pmuv3_1/stalled-cycles-backend/ #   77.07% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375815635      armv8_pmuv3_1/branches/          #  370.182 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            407317      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017884708 seconds time elapsed
+
+       1.006010000 seconds user
+       0.009990000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015480416      task-clock                       #    0.998 CPUs utilized             
+                14      context-switches                 #   13.787 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.963 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064090200      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4006892238      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4327959      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3087836684      armv8_pmuv3_1/stalled-cycles-backend/ #   77.06% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375823226      armv8_pmuv3_1/branches/          #  370.094 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            408731      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.017837844 seconds time elapsed
+
+       1.004340000 seconds user
+       0.011992000 seconds sys
+
+
+
+ Performance counter stats for './2mm_arm_executables/2mm_arm_pure_polly.out':
+
+        1015888720      task-clock                       #    0.998 CPUs utilized             
+                12      context-switches                 #   11.812 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              6055      page-faults                      #    5.960 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        9064132301      armv8_pmuv3_1/instructions/      #    2.26  insn per cycle            
+                                                  #    0.34  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        4008301889      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           4389779      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.11% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        3089159944      armv8_pmuv3_1/stalled-cycles-backend/ #   77.07% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         375829163      armv8_pmuv3_1/branches/          #  369.951 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            410071      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       1.018182019 seconds time elapsed
+
+       1.005756000 seconds user
+       0.010997000 seconds sys
+
+

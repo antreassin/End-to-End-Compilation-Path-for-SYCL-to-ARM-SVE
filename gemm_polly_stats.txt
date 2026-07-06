@@ -1,0 +1,271 @@
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509593712      task-clock                       #    0.995 CPUs utilized             
+                11      context-switches                 #   21.586 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4005      page-faults                      #    7.859 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084174921      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2009994672      armv8_pmuv3_1/cycles/            #    3.944 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2825303      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1493363630      armv8_pmuv3_1/stalled-cycles-backend/ #   74.30% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         190008414      armv8_pmuv3_1/branches/          #  372.863 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            216406      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.512288841 seconds time elapsed
+
+       0.503345000 seconds user
+       0.006990000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509335248      task-clock                       #    0.996 CPUs utilized             
+                 8      context-switches                 #   15.707 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4006      page-faults                      #    7.865 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084048911      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2009704255      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2865932      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1493051624      armv8_pmuv3_1/stalled-cycles-backend/ #   74.29% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189990423      armv8_pmuv3_1/branches/          #  373.016 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            216613      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511576956 seconds time elapsed
+
+       0.505048000 seconds user
+       0.004990000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         508693056      task-clock                       #    0.995 CPUs utilized             
+                 9      context-switches                 #   17.692 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4006      page-faults                      #    7.875 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084018131      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008277406      armv8_pmuv3_1/cycles/            #    3.948 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2771160      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491742229      armv8_pmuv3_1/stalled-cycles-backend/ #   74.28% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189983584      armv8_pmuv3_1/branches/          #  373.474 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            214892      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511117100 seconds time elapsed
+
+       0.502375000 seconds user
+       0.007005000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509191936      task-clock                       #    0.996 CPUs utilized             
+                 9      context-switches                 #   17.675 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4004      page-faults                      #    7.863 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5083982328      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008697569      armv8_pmuv3_1/cycles/            #    3.945 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2967636      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.15% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491978039      armv8_pmuv3_1/stalled-cycles-backend/ #   74.28% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189978555      armv8_pmuv3_1/branches/          #  373.098 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            215967      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511344491 seconds time elapsed
+
+       0.503915000 seconds user
+       0.006010000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509198064      task-clock                       #    0.996 CPUs utilized             
+                10      context-switches                 #   19.639 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4005      page-faults                      #    7.865 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084052026      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2009693166      armv8_pmuv3_1/cycles/            #    3.947 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2724988      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1493197338      armv8_pmuv3_1/stalled-cycles-backend/ #   74.30% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189989085      armv8_pmuv3_1/branches/          #  373.114 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            215467      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511283276 seconds time elapsed
+
+       0.504964000 seconds user
+       0.004999000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         508984240      task-clock                       #    0.996 CPUs utilized             
+                10      context-switches                 #   19.647 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4005      page-faults                      #    7.869 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084043968      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2007885259      armv8_pmuv3_1/cycles/            #    3.945 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2815727      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491313532      armv8_pmuv3_1/stalled-cycles-backend/ #   74.27% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189988120      armv8_pmuv3_1/branches/          #  373.269 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            216134      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.510975916 seconds time elapsed
+
+       0.504606000 seconds user
+       0.004996000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         508840208      task-clock                       #    0.996 CPUs utilized             
+                 8      context-switches                 #   15.722 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4005      page-faults                      #    7.871 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5083975220      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2007845878      armv8_pmuv3_1/cycles/            #    3.946 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2680096      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.13% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491404001      armv8_pmuv3_1/stalled-cycles-backend/ #   74.28% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189976952      armv8_pmuv3_1/branches/          #  373.353 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            214713      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.510952813 seconds time elapsed
+
+       0.504524000 seconds user
+       0.004995000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509151648      task-clock                       #    0.996 CPUs utilized             
+                10      context-switches                 #   19.641 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4005      page-faults                      #    7.866 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084085481      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008429432      armv8_pmuv3_1/cycles/            #    3.945 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2891061      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491736178      armv8_pmuv3_1/stalled-cycles-backend/ #   74.27% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189994498      armv8_pmuv3_1/branches/          #  373.159 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            216632      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511082284 seconds time elapsed
+
+       0.504774000 seconds user
+       0.004997000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         508850096      task-clock                       #    0.995 CPUs utilized             
+                10      context-switches                 #   19.652 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4004      page-faults                      #    7.869 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084047749      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008494074      armv8_pmuv3_1/cycles/            #    3.947 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2805998      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.14% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491916023      armv8_pmuv3_1/stalled-cycles-backend/ #   74.28% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189989048      armv8_pmuv3_1/branches/          #  373.369 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            215827      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511366939 seconds time elapsed
+
+       0.505504000 seconds user
+       0.004003000 seconds sys
+
+
+
+ Performance counter stats for './gemm_arm_executables/gemm_arm_pure_polly.out':
+
+         509220032      task-clock                       #    0.996 CPUs utilized             
+                10      context-switches                 #   19.638 /sec                      
+                 0      cpu-migrations                   #    0.000 /sec                      
+              4006      page-faults                      #    7.867 K/sec                     
+     <not counted>      armv8_pmuv3_0/instructions/                                             (0.00%)
+        5084093301      armv8_pmuv3_1/instructions/      #    2.53  insn per cycle            
+                                                  #    0.29  stalled cycles per insn   
+     <not counted>      armv8_pmuv3_0/cycles/                                                   (0.00%)
+        2008656241      armv8_pmuv3_1/cycles/            #    3.945 GHz                       
+     <not counted>      armv8_pmuv3_0/stalled-cycles-frontend/                                        (0.00%)
+           2957491      armv8_pmuv3_1/stalled-cycles-frontend/ #    0.15% frontend cycles idle      
+     <not counted>      armv8_pmuv3_0/stalled-cycles-backend/                                        (0.00%)
+        1491920908      armv8_pmuv3_1/stalled-cycles-backend/ #   74.27% backend cycles idle       
+     <not counted>      armv8_pmuv3_0/branches/                                                 (0.00%)
+         189995706      armv8_pmuv3_1/branches/          #  373.111 M/sec                     
+     <not counted>      armv8_pmuv3_0/branch-misses/                                            (0.00%)
+            215681      armv8_pmuv3_1/branch-misses/     #    0.11% of all branches           
+
+       0.511018588 seconds time elapsed
+
+       0.504879000 seconds user
+       0.004998000 seconds sys
+
+
+74.28***
